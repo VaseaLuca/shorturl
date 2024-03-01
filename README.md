@@ -8,7 +8,7 @@
 To run this project, you will need to follow these steps:
 
 
- - `git clone <repository_url>`
+ - `git clone https://github.com/VaseaLuca/shorturl.git`
  - `cd <project_directory>`
  - Create virtual env:
      `python3 -m venv env`
