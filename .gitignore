@@ -1,0 +1,27 @@
+# Compiled python files
+*.pyc
+
+# Virtual environment
+/env/
+
+# Dependency cache
+__pycache__/
+dist/
+build/
+
+# IDE/editor files
+.vscode/
+.idea/
+
+# Log files
+*.log
+
+# Configuration files
+.env
+.env.*
+
+# Database files
+*.db
+
+# User-specific files
+.DS_Store
