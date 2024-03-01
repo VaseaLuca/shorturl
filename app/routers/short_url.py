@@ -8,7 +8,7 @@ from pydantic import BaseModel
 import random
 import string
 
-router = APIRouter()
+router = APIRouter(tags=["Short Url Related"])
 
 def get_session_local():
     yield SessionLocal()

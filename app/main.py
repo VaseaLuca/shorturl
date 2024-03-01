@@ -15,7 +15,7 @@ def get_db():
 
 app.include_router(short_url_router)
 
-@app.get("/")
+@app.get("/", tags=["root"])
 
 async def root():
     return {"message": "Hello Bugs :)"}
