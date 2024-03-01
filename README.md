@@ -26,6 +26,14 @@ To run this project, you will need to follow these steps:
 
   and access the application on http://127.0.0.1:8000
     
+# Running Manual Tests
+
+
+
+```bash
+    Access http://127.0.0.1:8000/docs and try the endpoints
+```
+
 # Running Tests
 
 To run tests, run the following command
