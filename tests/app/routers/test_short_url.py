@@ -33,7 +33,10 @@ def test_redirect_to_origial_bad_url():
   response = client.get("/QWESA22321_")
   assert response.status_code == 404
 
-# need to replace '{shortcode}' with an actual code from db
 def test_get_stats():
   response = client.get("/QWESA21_/stats")
   assert response.status_code == 200
+  
+def test_get_stats_not_found():
+  response = client.get("/QWESA21/stats")
+  assert response.status_code == 404
